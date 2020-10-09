@@ -7,3 +7,11 @@
 // *** YOUR CODE HERE *** //
 
 module.exports = generateRange;
+
+function generateRange (min, max, step) {
+  let returnArray = []
+    for (let i = min, i <= max, i += step) {
+      returnArray.push(i) ;
+    }
+  returnArray;
+  }
